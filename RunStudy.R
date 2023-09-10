@@ -31,6 +31,7 @@ info(logger, "PARAMETERS RECORDED")
 info(logger, "CREATE NEW USER COHORTS")
 info(logger, "get concept ids from ingredient")
 conceptSet <- getDrugIngredientCodes(cdm = cdm, name = ingredient)
+names(conceptSet) <- ingredient
 info(logger, "instantiate new users cohort")
 cdm <- generateDrugUtilisationCohortSet(
   cdm = cdm,
@@ -59,6 +60,22 @@ info(logger, "NEW USER COHORTS CREATED")
 # instantate indication cohorts
 # summarise indications
 # summarise drug use ----
+info(logger, "SUMMARISE DRUG USE")
+info(logger, "get the ingredient concept id")
+ingredientConceptId <- cdm[["concept"]] %>%
+  filter(.data$concept_name == .env$ingredient) %>%
+  filter(.data$concept_class == "Ingredient") %>%
+  pull("concept_id")
+info(logger, "add drug use data")
+cdm$new_users_cohort <- cdm$new_users_cohort %>%
+  addDrugUse(
+    ingredientConceptId = ingredientConceptId,
+    conceptSetList = conceptSet
+  )
+info(logger, "create summary object")
+drugUse <- summariseDrugUse(cohort = cdm$new_users_cohort)
+write_csv(drugUse, here(resultsFolder, "drugUse.csv"))
+info(logger, "DRUG USE SUMMARISED")
 # summarise large scale characteristics ----
 info(logger, "START LARGE SCALE CHARACTERISTICS")
 lsc <- summariseLargeScaleCharacteristics(
