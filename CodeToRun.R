@@ -13,12 +13,24 @@ library(readr)
 library(zip)
 
 # Connection details
-db <- dbConnect("...")
+server_dbi<-"cdm_iqvia_pharmetrics_plus_202203"
+port<-Sys.getenv("DB_PORT")
+host<-Sys.getenv("DB_HOST")
+user<-Sys.getenv("DB_USER")
+password<-Sys.getenv("DB_PASSWORD")
+
+db <- dbConnect(RPostgres::Postgres(),
+                dbname = server_dbi,
+                port = port,
+                host = host,
+                user = user,
+                password = password)
+
 
 # connection details
-databaseAcronym <- "..."
-cdmDatabaseSchema <- "..."
-resultsDatabaseSchema <- "..."
+databaseAcronym <- "PHARMETRICS"
+cdmDatabaseSchema <- "public_100k"
+resultsDatabaseSchema <- "results"
 resultsStem <- "dus_"
 
 cdm <- cdmFromCon(
@@ -31,7 +43,7 @@ cdm <- cdmFromCon(
 # Count number of individuals in database to see if we connected correctly
 cdm$person %>%
   tally() %>%
-  compute()
+  computeQuery()
 
 # run analysis
 source("RunStudy.R")
