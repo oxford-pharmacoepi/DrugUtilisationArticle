@@ -29,7 +29,7 @@ db <- dbConnect(RPostgres::Postgres(),
 
 # connection details
 databaseAcronym <- "PHARMETRICS"
-cdmDatabaseSchema <- "public_100k"
+cdmDatabaseSchema <- "public"
 resultsDatabaseSchema <- "results"
 resultsStem <- "dus_"
 
