@@ -11,6 +11,7 @@ library(here)
 library(log4r)
 library(readr)
 library(zip)
+library(IncidencePrevalence)
 
 # Connection details
 server_dbi<-"cdm_iqvia_pharmetrics_plus_202203"

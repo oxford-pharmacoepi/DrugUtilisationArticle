@@ -1,4 +1,4 @@
-dropTable(cdm, listTables(attr(cdm, "dbcon"), attr(cdm, "write_schema")))
+dropTable(cdm, everything())
 # parameters ----
 ingredient <- "simvastatin"
 ageGroup <- list(c(0, 19), c(20, 39), c(40, 59), c(60, 79), c(80, 150))
@@ -25,11 +25,70 @@ info(logger, "CDM SNAPSHOT")
 write_csv(snapshot(cdm), here(resultsFolder, "cdmSnapshot.csv"))
 info(logger, "CDM SNAPSHOT DONE")
 
-# create new user cohorts ----
-info(logger, "CREATE NEW USER COHORTS")
+# create prevalent user cohorts ----
+info(logger, "CREATE PREVALENT USER COHORTS")
 info(logger, "get concept ids from ingredient")
 conceptSet <- getDrugIngredientCodes(cdm = cdm, name = ingredient)
 names(conceptSet) <- ingredient
+info(logger, "instantiate new users cohort")
+cdm <- generateDrugUtilisationCohortSet(
+  cdm = cdm,
+  conceptSet = conceptSet,
+  name = "prevalent_users_cohort",
+  priorObservation = NULL,
+  gapEra = 30,
+  priorUseWashout = 0,
+  limit = "all",
+  imputeDuration = "none"
+)
+info(logger, "export pevalent users cohort")
+newUserCohorts <- cohortSet(cdm$prevalent_users_cohort) %>%
+  inner_join(cohortAttrition(cdm$prevalent_users_cohort), by = "cohort_definition_id") %>%
+  addCdmName(cdm) %>%
+  mutate(table_name = attr(cdm$prevalent_users_cohort, "table_name"))
+write_csv(newUserCohorts, here(resultsFolder, "prevalentUsersCohort.csv"))
+info(logger, "PREVALENT USER COHORTS CREATED")
+
+# incidence and prevalence ----
+info(logger, "COMPUTE INCIDENCE AND PREVALENCE")
+info(logger, "compute denominator")
+cdm <- generateDenominatorCohortSet(
+  cdm = cdm,
+  name = "denominator",
+  cohortDateRange = as.Date(c("2017-01-01", "2021-12-31")),
+  ageGroup = ageGroup,
+  sex = c("Both", "Male", "Female"),
+  daysPriorObservation = 365,
+  requirementInteractions = TRUE
+)
+
+info(logger, "compute prevalence")
+prev <- estimatePeriodPrevalence(
+  cdm = cdm,
+  denominatorTable = "denominator",
+  outcomeTable = "prevalent_users_cohort",
+  outcomeLookbackDays = 0,
+  interval = c("months", "years")
+)
+
+write_csv(prev, here(resultsFolder, "prevalence.csv"))
+write_csv(prevalenceAttrition(prev), here(resultsFolder, "prevalence_attrition.csv"))
+
+info(logger, "compute incidence")
+inc <- estimateIncidence(
+  cdm = cdm,
+  denominatorTable = "denominator",
+  outcomeTable = "prevalent_users_cohort",
+  outcomeWashout = 365,
+  interval = c("months", "years")
+)
+
+write_csv(inc, here(resultsFolder, "incidence.csv"))
+write_csv(incidenceAttrition(inc), here(resultsFolder, "incidence_attrition.csv"))
+info(logger, "INCIDENCE AND PREVALENCE COMPUTED")
+
+# create new user cohorts ----
+info(logger, "CREATE NEW USER COHORTS")
 info(logger, "instantiate new users cohort")
 cdm <- generateDrugUtilisationCohortSet(
   cdm = cdm,
@@ -39,7 +98,7 @@ cdm <- generateDrugUtilisationCohortSet(
   gapEra = 30,
   priorUseWashout = 365,
   limit = "first",
-  cohortDateRange = as.Date(c("2018-01-01", "2019-12-31")),
+  cohortDateRange = as.Date(c("2010-01-01", "2021-12-31")),
   imputeDuration = "none"
 )
 info(logger, "export new users cohort")
@@ -166,4 +225,4 @@ zip(
 )
 
 # drop the permanent tables created during the analysis ----
-#dropTable(cdm, listTables(attr(cdm, "dbcon"), attr(cdm, "write_schema")))
+#dropTable(cdm, everything(), TRUE)
