@@ -3,6 +3,11 @@ dropTable(cdm, everything())
 ingredient <- "simvastatin"
 ageGroup <- list(c(0, 19), c(20, 39), c(40, 59), c(60, 79), c(80, 150))
 strata <- list("age_group", "sex", c("age_group", "sex"))
+alternativeIngredients <- c(
+  "lovastatin", "pravastatin", "fluvastatin", "atorvastatin", "cerivastatin",
+  "rosuvastatin", "pitavastatin", "ezetimibe", "evolocumab", "alirocumab",
+  "evinacumb"
+)
 
 # initiate project ----
 # create results folder
@@ -42,11 +47,11 @@ cdm <- generateDrugUtilisationCohortSet(
   imputeDuration = "none"
 )
 info(logger, "export pevalent users cohort")
-newUserCohorts <- cohortSet(cdm$prevalent_users_cohort) %>%
+prevalentUserCohorts <- cohortSet(cdm$prevalent_users_cohort) %>%
   inner_join(cohortAttrition(cdm$prevalent_users_cohort), by = "cohort_definition_id") %>%
   addCdmName(cdm) %>%
   mutate(table_name = attr(cdm$prevalent_users_cohort, "table_name"))
-write_csv(newUserCohorts, here(resultsFolder, "prevalentUsersCohort.csv"))
+write_csv(prevalentUserCohorts, here(resultsFolder, "prevalentUsersCohort.csv"))
 info(logger, "PREVALENT USER COHORTS CREATED")
 
 # incidence and prevalence ----
@@ -214,7 +219,31 @@ write_csv(lsc, here(resultsFolder, "largeScaleCharacteristics.csv"))
 info(logger, "LARGE SCALE CHARACTERISTICS FINISHED")
 
 # summarise treatment discontinuation ----
+info(logger, "TREATMENT DISCONTINUATION")
+discontinuation <- cdm$new_users_cohort %>%
+  treatmentDiscontinuation(strata = strata)
+info(logger, "export treatment discontinuation")
+write_csv(discontinuation, here(resultsFolder, "treatmentDiscontinuation.csv"))
+info(logger, "TREATMENT DISCONTINUATION FINISHED")
 
+# summarise future treatments ----
+info(logger, "SUMMARISE TREATMENTS")
+info(logger, "get drug codelists")
+codelist <- getDrugIngredientCodes(cdm = cdm,name = alternativeIngredients)
+names(codelist) <- gsub("Ingredient: ", "", names(codelist)) %>%
+  strsplit(" ") %>%
+  lapply(function(x) {x[1]}) %>%
+  unlist()
+info(logger, "summarise treatments")
+alternativeTreatments <- cdm$new_users_cohort %>%
+  summariseTreatment(
+    strata = strata,
+    window = list(c(0, 0), c(1, 30), c(31, 90), c(91, 180), c(181, 365)),
+    treatmentConceptSet = codelist
+  )
+info(logger, "export treatment discontinuation")
+write_csv(alternativeTreatments, here(resultsFolder, "treatmentSummary.csv"))
+info(logger, "TREATMENTS SUMMARISED")
 
 # create zip file ----
 info(logger, "EXPORT RESULTS")
@@ -225,4 +254,4 @@ zip(
 )
 
 # drop the permanent tables created during the analysis ----
-#dropTable(cdm, everything(), TRUE)
+# dropTable(cdm, everything(), TRUE)

@@ -11,7 +11,7 @@
   "Packages": {
     "CDMConnector": {
       "Package": "CDMConnector",
-      "Version": "1.1.4",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -38,7 +38,7 @@
         "waldo",
         "withr"
       ],
-      "Hash": "c6a64a2d3ce72a963879cc0d55cc2749"
+      "Hash": "3b0bfeaca7d88251031d9b98fa5d5f79"
     },
     "CodelistGenerator": {
       "Package": "CodelistGenerator",
@@ -64,6 +64,37 @@
       ],
       "Hash": "a2146680a0406584e4d755f8824135cd"
     },
+    "CohortSurvival": {
+      "Package": "CohortSurvival",
+      "Version": "0.2.4",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "darwin-eu",
+      "RemoteRepo": "CohortSurvival",
+      "RemoteRef": "main",
+      "RemoteSha": "760a3c433f542e5a798f21c92f062324b4ec2557",
+      "Requirements": [
+        "CDMConnector",
+        "DBI",
+        "PatientProfiles",
+        "broom",
+        "checkmate",
+        "cli",
+        "dbplyr",
+        "dplyr",
+        "lubridate",
+        "magrittr",
+        "methods",
+        "rlang",
+        "scales",
+        "stringr",
+        "survival",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "235ebd1ad4233b39d12c7935345a18f6"
+    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.1.3",
@@ -77,11 +108,18 @@
     },
     "DrugUtilisation": {
       "Package": "DrugUtilisation",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Version": "0.4.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "darwin-eu-dev",
+      "RemoteRepo": "DrugUtilisation",
+      "RemoteRef": "cohort_survival",
+      "RemoteSha": "a6a977d4d718adfdce4947b02112f3d2c6ae86d2",
+      "Remotes": "darwin-eu/CohortSurvival",
       "Requirements": [
         "CDMConnector",
+        "CohortSurvival",
         "DBI",
         "PatientProfiles",
         "R",
@@ -97,7 +135,7 @@
         "rlang",
         "tidyr"
       ],
-      "Hash": "7083d0a424a9d7b5aca1a4031821e3b8"
+      "Hash": "c76e40add8571820f363dcb2fd5e8021"
     },
     "IncidencePrevalence": {
       "Package": "IncidencePrevalence",
@@ -159,9 +197,14 @@
     },
     "PatientProfiles": {
       "Package": "PatientProfiles",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Version": "0.5.2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "darwin-eu-dev",
+      "RemoteRepo": "PatientProfiles",
+      "RemoteRef": "main",
+      "RemoteSha": "86a234792a6fed566634f89cbc0cf13c3a34214f",
       "Requirements": [
         "CDMConnector",
         "DBI",
@@ -177,7 +220,7 @@
         "stringr",
         "tidyr"
       ],
-      "Hash": "84b6b1c18891e63a4ba9b3d1c5981b72"
+      "Hash": "fe829ba574b0307d977b5df54f005587"
     },
     "R6": {
       "Package": "R6",
@@ -325,6 +368,27 @@
       ],
       "Hash": "40415719b5a479b87949f3aa0aee737c"
     },
+    "broom": {
+      "Package": "broom",
+      "Version": "1.0.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "backports",
+        "dplyr",
+        "ellipsis",
+        "generics",
+        "glue",
+        "lifecycle",
+        "purrr",
+        "rlang",
+        "stringr",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "fd25391c3c4f6ecf0fa95f1e6d15378c"
+    },
     "bslib": {
       "Package": "bslib",
       "Version": "0.5.1",
@@ -444,7 +508,7 @@
     },
     "dbplyr": {
       "Package": "dbplyr",
-      "Version": "2.3.3",
+      "Version": "2.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -468,7 +532,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "d6fd1b1440c1cacc6623aaa4e9fe352b"
+      "Hash": "59351f28a81f0742720b85363c4fdd61"
     },
     "diffobj": {
       "Package": "diffobj",
@@ -1231,6 +1295,22 @@
         "vctrs"
       ],
       "Hash": "671a4d384ae9d32fc47a14e98bfa3dc8"
+    },
+    "survival": {
+      "Package": "survival",
+      "Version": "3.3-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "Matrix",
+        "R",
+        "graphics",
+        "methods",
+        "splines",
+        "stats",
+        "utils"
+      ],
+      "Hash": "f6189c70451d3d68e0d571235576e833"
     },
     "tibble": {
       "Package": "tibble",
