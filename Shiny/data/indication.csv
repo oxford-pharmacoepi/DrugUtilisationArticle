@@ -1,0 +1,613 @@
+group_name,group_level,strata_name,strata_level,variable,variable_level,variable_type,estimate_type,estimate,cdm_name,result_type
+cohort_name,simvastatin,Overall,Overall,number subjects,NA,numeric,count,60032,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,number records,NA,NA,count,60032,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,Hyperlipidaemia_broad,binary,count,14162,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,Hyperlipidaemia_broad,binary,percentage,23.5907515991471,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,Hyperlipidaemia_narrow,binary,count,14117,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,23.5157915778252,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,None,binary,count,37412,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,None,binary,percentage,62.3200959488273,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,Unknown,binary,count,8458,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication on index date,Unknown,binary,percentage,14.0891524520256,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,24268,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,40.4251066098081,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,24352,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,40.5650319829424,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,None,binary,count,12772,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,None,binary,percentage,21.2753198294243,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,Unknown,binary,count,22908,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 30 days,Unknown,binary,percentage,38.1596481876333,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,35178,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,58.5987473347548,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,35295,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.7936433901919,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,None,binary,count,3015,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,None,binary,percentage,5.02232142857143,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,Unknown,binary,count,21722,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication during prior 180 days,Unknown,binary,percentage,36.1840351812367,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,Hyperlipidaemia_broad,binary,count,46092,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,76.7790511727079,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,Hyperlipidaemia_narrow,binary,count,45987,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,76.60414445629,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,None,binary,count,984,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,None,binary,percentage,1.63912579957356,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,Unknown,binary,count,12956,PHARMETRICS,Summary indication
+cohort_name,simvastatin,Overall,Overall,Indication any time prior,Unknown,binary,percentage,21.5818230277185,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,number subjects,NA,numeric,count,253,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,number records,NA,NA,count,253,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,Hyperlipidaemia_broad,binary,count,55,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,Hyperlipidaemia_broad,binary,percentage,21.7391304347826,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,Hyperlipidaemia_narrow,binary,count,54,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,21.3438735177866,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,None,binary,count,167,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,None,binary,percentage,66.0079051383399,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,Unknown,binary,count,31,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication on index date,Unknown,binary,percentage,12.2529644268775,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,94,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,37.1541501976285,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,95,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,37.5494071146245,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,None,binary,count,57,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,None,binary,percentage,22.5296442687747,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,Unknown,binary,count,101,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 30 days,Unknown,binary,percentage,39.9209486166008,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,129,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,50.9881422924901,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,130,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,51.3833992094862,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,None,binary,count,14,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,None,binary,percentage,5.53359683794466,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,Unknown,binary,count,109,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication during prior 180 days,Unknown,binary,percentage,43.0830039525692,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,Hyperlipidaemia_broad,binary,count,146,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,57.7075098814229,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,Hyperlipidaemia_narrow,binary,count,145,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,57.3122529644269,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,None,binary,count,<5,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,None,binary,percentage,NA,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,Unknown,binary,count,105,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,0 to 19,Indication any time prior,Unknown,binary,percentage,41.501976284585,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,number subjects,NA,numeric,count,2841,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,number records,NA,NA,count,2841,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,Hyperlipidaemia_broad,binary,count,847,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,Hyperlipidaemia_broad,binary,percentage,29.813445969729,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,Hyperlipidaemia_narrow,binary,count,846,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,29.7782470960929,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,None,binary,count,1613,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,None,binary,percentage,56.7757831749384,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,Unknown,binary,count,381,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication on index date,Unknown,binary,percentage,13.4107708553326,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,1317,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,46.3569165786695,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,1321,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,46.4977120732137,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,None,binary,count,375,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,None,binary,percentage,13.1995776135164,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,Unknown,binary,count,1145,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 30 days,Unknown,binary,percentage,40.30271031327,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,1586,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,55.8254135867652,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,1589,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,55.9310102076734,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,None,binary,count,94,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,None,binary,percentage,3.3086941217881,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,Unknown,binary,count,1158,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication during prior 180 days,Unknown,binary,percentage,40.7602956705385,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,Hyperlipidaemia_broad,binary,count,1887,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,66.4202745512144,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,Hyperlipidaemia_narrow,binary,count,1883,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,66.2794790566702,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,None,binary,count,30,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,None,binary,percentage,1.05596620908131,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,Unknown,binary,count,924,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,20 to 39,Indication any time prior,Unknown,binary,percentage,32.5237592397043,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,number subjects,NA,numeric,count,22338,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,number records,NA,NA,count,22338,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,Hyperlipidaemia_broad,binary,count,6197,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,Hyperlipidaemia_broad,binary,percentage,27.7419643656549,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,Hyperlipidaemia_narrow,binary,count,6179,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,27.6613841883785,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,None,binary,count,13009,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,None,binary,percentage,58.2370847882532,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,Unknown,binary,count,3132,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication on index date,Unknown,binary,percentage,14.0209508460919,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,9927,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,44.4399677679291,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,9959,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,44.5832214164205,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,None,binary,count,4051,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,None,binary,percentage,18.1350165637031,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,Unknown,binary,count,8328,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 30 days,Unknown,binary,percentage,37.2817620198764,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,12919,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,57.8341839018712,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,12962,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.0266809920315,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,None,binary,count,1025,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,None,binary,percentage,4.58859342823888,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,Unknown,binary,count,8351,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication during prior 180 days,Unknown,binary,percentage,37.3847255797296,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,Hyperlipidaemia_broad,binary,count,16244,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,72.7191333154266,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,Hyperlipidaemia_narrow,binary,count,16207,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,72.5534962843585,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,None,binary,count,331,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,None,binary,percentage,1.48177992658251,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,Unknown,binary,count,5763,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,40 to 59,Indication any time prior,Unknown,binary,percentage,25.7990867579909,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,number subjects,NA,numeric,count,28264,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,number records,NA,NA,count,28264,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,Hyperlipidaemia_broad,binary,count,6019,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,Hyperlipidaemia_broad,binary,percentage,21.2956410982168,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,Hyperlipidaemia_narrow,binary,count,6001,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,21.231955844891,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,None,binary,count,18450,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,None,binary,percentage,65.2773846589301,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,Unknown,binary,count,3795,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication on index date,Unknown,binary,percentage,13.4269742428531,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,10652,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,37.6875176903481,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,10687,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,37.8113501273705,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,None,binary,count,6962,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,None,binary,percentage,24.6320407585621,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,Unknown,binary,count,10615,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 30 days,Unknown,binary,percentage,37.5566091140674,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,16575,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,58.6435041041608,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,16630,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.8380979337673,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,None,binary,count,1584,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,None,binary,percentage,5.60430229266912,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,Unknown,binary,count,10050,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication during prior 180 days,Unknown,binary,percentage,35.5575997735635,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,Hyperlipidaemia_broad,binary,count,22352,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,79.0829323521087,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,Hyperlipidaemia_narrow,binary,count,22301,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,78.902490801019,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,None,binary,count,522,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,None,binary,percentage,1.84687234644778,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,Unknown,binary,count,5390,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,60 to 79,Indication any time prior,Unknown,binary,percentage,19.0701953014435,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,number subjects,NA,numeric,count,6336,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,number records,NA,NA,count,6336,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,Hyperlipidaemia_broad,binary,count,1044,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,Hyperlipidaemia_broad,binary,percentage,16.4772727272727,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,Hyperlipidaemia_narrow,binary,count,1037,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,16.3667929292929,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,None,binary,count,4173,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,None,binary,percentage,65.8617424242424,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,Unknown,binary,count,1119,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication on index date,Unknown,binary,percentage,17.6609848484848,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,2278,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,35.9532828282828,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,2290,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,36.1426767676768,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,None,binary,count,1327,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,None,binary,percentage,20.9438131313131,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,Unknown,binary,count,2719,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 30 days,Unknown,binary,percentage,42.9135101010101,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,3969,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,62.6420454545455,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,3984,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,62.8787878787879,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,None,binary,count,298,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,None,binary,percentage,4.70328282828283,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,Unknown,binary,count,2054,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication during prior 180 days,Unknown,binary,percentage,32.4179292929293,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,Hyperlipidaemia_broad,binary,count,5463,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,86.2215909090909,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,Hyperlipidaemia_narrow,binary,count,5451,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,86.032196969697,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,None,binary,count,99,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,None,binary,percentage,1.5625,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,Unknown,binary,count,774,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group,80 to 150,Indication any time prior,Unknown,binary,percentage,12.2159090909091,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,number subjects,NA,numeric,count,30539,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,number records,NA,NA,count,30539,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,Hyperlipidaemia_broad,binary,count,7249,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,Hyperlipidaemia_broad,binary,percentage,23.7368610629032,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,Hyperlipidaemia_narrow,binary,count,7231,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,23.6779200366744,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,None,binary,count,18836,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,None,binary,percentage,61.6785094469367,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,Unknown,binary,count,4454,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication on index date,Unknown,binary,percentage,14.5846294901601,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,12554,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,41.1080912931006,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,12593,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,41.2357968499296,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,None,binary,count,5876,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,None,binary,percentage,19.2409705622319,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,Unknown,binary,count,12070,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 30 days,Unknown,binary,percentage,39.5232325878385,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,17945,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,58.7609286486133,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,18001,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.9443007302138,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,None,binary,count,1292,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,None,binary,percentage,4.23065588264187,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,Unknown,binary,count,11246,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication during prior 180 days,Unknown,binary,percentage,36.8250433871443,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,Hyperlipidaemia_broad,binary,count,23590,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,77.2454893742428,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,Hyperlipidaemia_narrow,binary,count,23540,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,77.0817643013851,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,None,binary,count,416,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,None,binary,percentage,1.36219260617571,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,Unknown,binary,count,6533,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Female,Indication any time prior,Unknown,binary,percentage,21.3923180195815,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,number subjects,NA,numeric,count,29493,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,number records,NA,NA,count,29493,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,Hyperlipidaemia_broad,binary,count,6913,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,Hyperlipidaemia_broad,binary,percentage,23.4394602108975,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,Hyperlipidaemia_narrow,binary,count,6886,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,23.3479130641169,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,None,binary,count,18576,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,None,binary,percentage,62.9844369850473,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,Unknown,binary,count,4004,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication on index date,Unknown,binary,percentage,13.5761028040552,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,11714,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,39.7178991625131,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,11759,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,39.8704777404808,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,None,binary,count,6896,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,None,binary,percentage,23.3818194147764,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,Unknown,binary,count,10838,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 30 days,Unknown,binary,percentage,36.7477028447428,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,17233,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,58.4308140914793,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,17294,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.6376428305022,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,None,binary,count,1723,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,None,binary,percentage,5.84206421862815,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,Unknown,binary,count,10476,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication during prior 180 days,Unknown,binary,percentage,35.5202929508697,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,Hyperlipidaemia_broad,binary,count,22502,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,76.2960702539586,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,Hyperlipidaemia_narrow,binary,count,22447,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,76.1095853253314,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,None,binary,count,568,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,None,binary,percentage,1.92588071745838,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,Unknown,binary,count,6423,PHARMETRICS,Summary indication
+cohort_name,simvastatin,sex,Male,Indication any time prior,Unknown,binary,percentage,21.7780490285831,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,number subjects,NA,numeric,count,135,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,number records,NA,NA,count,135,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,Hyperlipidaemia_broad,binary,count,30,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,Hyperlipidaemia_broad,binary,percentage,22.2222222222222,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,count,30,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,22.2222222222222,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,None,binary,count,92,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,None,binary,percentage,68.1481481481482,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,Unknown,binary,count,13,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication on index date,Unknown,binary,percentage,9.62962962962963,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,53,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,39.2592592592593,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,53,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,39.2592592592593,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,None,binary,count,28,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,None,binary,percentage,20.7407407407407,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,Unknown,binary,count,54,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 30 days,Unknown,binary,percentage,40,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,70,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,51.8518518518519,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,70,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,51.8518518518519,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,None,binary,count,8,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,None,binary,percentage,5.92592592592593,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,Unknown,binary,count,57,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication during prior 180 days,Unknown,binary,percentage,42.2222222222222,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,count,76,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,56.2962962962963,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,count,76,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,56.2962962962963,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,None,binary,count,0,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,None,binary,percentage,0,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,Unknown,binary,count,59,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Female,Indication any time prior,Unknown,binary,percentage,43.7037037037037,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,number subjects,NA,numeric,count,118,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,number records,NA,NA,count,118,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,Hyperlipidaemia_broad,binary,count,25,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,Hyperlipidaemia_broad,binary,percentage,21.1864406779661,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,count,24,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,20.3389830508475,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,None,binary,count,75,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,None,binary,percentage,63.5593220338983,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,Unknown,binary,count,18,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication on index date,Unknown,binary,percentage,15.2542372881356,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,41,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,34.7457627118644,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,42,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,35.5932203389831,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,None,binary,count,29,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,None,binary,percentage,24.5762711864407,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,Unknown,binary,count,47,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 30 days,Unknown,binary,percentage,39.8305084745763,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,59,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,50,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,60,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,50.8474576271186,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,None,binary,count,6,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,None,binary,percentage,5.08474576271186,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,Unknown,binary,count,52,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication during prior 180 days,Unknown,binary,percentage,44.0677966101695,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,count,70,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,59.3220338983051,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,count,69,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,58.4745762711864,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,None,binary,count,<5,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,None,binary,percentage,NA,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,Unknown,binary,count,46,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,0 to 19 and Male,Indication any time prior,Unknown,binary,percentage,38.9830508474576,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,number subjects,NA,numeric,count,1135,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,number records,NA,NA,count,1135,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,Hyperlipidaemia_broad,binary,count,309,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,Hyperlipidaemia_broad,binary,percentage,27.2246696035242,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,count,308,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,27.136563876652,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,None,binary,count,667,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,None,binary,percentage,58.7665198237885,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,Unknown,binary,count,159,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication on index date,Unknown,binary,percentage,14.0088105726872,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,497,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,43.7885462555066,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,499,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,43.9647577092511,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,None,binary,count,140,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,None,binary,percentage,12.3348017621145,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,Unknown,binary,count,496,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 30 days,Unknown,binary,percentage,43.7004405286344,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,604,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,53.215859030837,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,606,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,53.3920704845815,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,None,binary,count,23,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,None,binary,percentage,2.02643171806167,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,Unknown,binary,count,506,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication during prior 180 days,Unknown,binary,percentage,44.5814977973568,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,count,729,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,64.2290748898678,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,count,726,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,63.9647577092511,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,None,binary,count,8,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,None,binary,percentage,0.704845814977974,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,Unknown,binary,count,398,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Female,Indication any time prior,Unknown,binary,percentage,35.0660792951542,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,number subjects,NA,numeric,count,1706,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,number records,NA,NA,count,1706,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,Hyperlipidaemia_broad,binary,count,538,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,Hyperlipidaemia_broad,binary,percentage,31.5357561547479,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,count,538,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,31.5357561547479,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,None,binary,count,946,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,None,binary,percentage,55.4513481828839,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,Unknown,binary,count,222,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication on index date,Unknown,binary,percentage,13.0128956623681,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,820,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,48.0656506447831,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,822,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,48.1828839390387,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,None,binary,count,235,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,None,binary,percentage,13.7749120750293,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,Unknown,binary,count,649,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 30 days,Unknown,binary,percentage,38.042203985932,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,982,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,57.5615474794842,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,983,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,57.620164126612,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,None,binary,count,71,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,None,binary,percentage,4.16178194607268,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,Unknown,binary,count,652,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication during prior 180 days,Unknown,binary,percentage,38.2180539273154,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,count,1158,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,67.8780773739742,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,count,1157,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,67.8194607268464,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,None,binary,count,22,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,None,binary,percentage,1.28956623681125,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,Unknown,binary,count,526,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,20 to 39 and Male,Indication any time prior,Unknown,binary,percentage,30.8323563892145,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,number subjects,NA,numeric,count,10387,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,number records,NA,NA,count,10387,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,Hyperlipidaemia_broad,binary,count,2917,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,Hyperlipidaemia_broad,binary,percentage,28.0831808992009,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,count,2913,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,28.0446712236449,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,None,binary,count,5888,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,None,binary,percentage,56.6862424184076,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,Unknown,binary,count,1582,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication on index date,Unknown,binary,percentage,15.2305766823915,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,4661,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,44.8733994416097,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,4671,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,44.9696736304997,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,None,binary,count,1584,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,None,binary,percentage,15.2498315201694,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,Unknown,binary,count,4132,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 30 days,Unknown,binary,percentage,39.7804948493309,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,5988,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,57.6489843073072,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,6001,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,57.7741407528642,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,None,binary,count,367,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,None,binary,percentage,3.53326273226148,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,Unknown,binary,count,4019,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication during prior 180 days,Unknown,binary,percentage,38.6925965148744,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,count,7520,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,72.3981900452489,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,count,7508,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,72.2826610185809,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,None,binary,count,129,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,None,binary,percentage,1.24193703668047,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,Unknown,binary,count,2738,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Female,Indication any time prior,Unknown,binary,percentage,26.3598729180707,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,number subjects,NA,numeric,count,11951,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,number records,NA,NA,count,11951,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,Hyperlipidaemia_broad,binary,count,3280,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,Hyperlipidaemia_broad,binary,percentage,27.4454020584052,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,count,3266,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,27.3282570496193,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,None,binary,count,7121,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,None,binary,percentage,59.5849719688729,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,Unknown,binary,count,1550,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication on index date,Unknown,binary,percentage,12.9696259727219,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,5266,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,44.0632583047444,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,5288,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,44.2473433185507,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,None,binary,count,2467,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,None,binary,percentage,20.6426240481968,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,Unknown,binary,count,4196,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 30 days,Unknown,binary,percentage,35.1100326332524,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,6931,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,57.995146849636,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,6961,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.2461718684629,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,None,binary,count,658,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,None,binary,percentage,5.50581541293616,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,Unknown,binary,count,4332,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication during prior 180 days,Unknown,binary,percentage,36.248012718601,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,count,8724,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,72.9980754748557,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,count,8699,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,72.7888879591666,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,None,binary,count,202,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,None,binary,percentage,1.69023512676763,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,Unknown,binary,count,3025,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,40 to 59 and Male,Indication any time prior,Unknown,binary,percentage,25.3116893983767,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,number subjects,NA,numeric,count,15191,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,number records,NA,NA,count,15191,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,Hyperlipidaemia_broad,binary,count,3355,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,Hyperlipidaemia_broad,binary,percentage,22.0854453294714,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,count,3346,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,22.0261997235205,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,None,binary,count,9779,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,None,binary,percentage,64.373642288197,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,Unknown,binary,count,2057,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication on index date,Unknown,binary,percentage,13.5409123823316,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,5950,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,39.1679283786453,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,5970,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,39.2995852807583,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,None,binary,count,3380,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,None,binary,percentage,22.2500164571128,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,Unknown,binary,count,5841,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 30 days,Unknown,binary,percentage,38.4503982621289,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,8973,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,59.0678691330393,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,9004,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,59.2719373313146,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,None,binary,count,722,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,None,binary,percentage,4.75281416628267,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,Unknown,binary,count,5465,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication during prior 180 days,Unknown,binary,percentage,35.9752485024027,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,count,12086,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,79.5602659469423,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,count,12061,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,79.3956948193009,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,None,binary,count,223,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,None,binary,percentage,1.46797445856099,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,Unknown,binary,count,2882,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Female,Indication any time prior,Unknown,binary,percentage,18.9717595944967,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,number subjects,NA,numeric,count,13073,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,number records,NA,NA,count,13073,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,Hyperlipidaemia_broad,binary,count,2664,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,Hyperlipidaemia_broad,binary,percentage,20.3778780693031,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,count,2655,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,20.3090338866366,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,None,binary,count,8671,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,None,binary,percentage,66.3275453224202,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,Unknown,binary,count,1738,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication on index date,Unknown,binary,percentage,13.2945766082766,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,4702,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,35.9672607664652,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,4717,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,36.0820010709095,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,None,binary,count,3582,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,None,binary,percentage,27.3999847012927,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,Unknown,binary,count,4774,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 30 days,Unknown,binary,percentage,36.5180142277977,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,7602,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,58.1503862923583,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,7626,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,58.3339707794691,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,None,binary,count,862,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,None,binary,percentage,6.59374282873097,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,Unknown,binary,count,4585,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication during prior 180 days,Unknown,binary,percentage,35.0722863917999,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,count,10266,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,78.5282643616614,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,count,10240,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,78.3293811672914,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,None,binary,count,299,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,None,binary,percentage,2.28715673525587,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,Unknown,binary,count,2508,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,60 to 79 and Male,Indication any time prior,Unknown,binary,percentage,19.1845789030827,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,number subjects,NA,numeric,count,3691,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,number records,NA,NA,count,3691,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,Hyperlipidaemia_broad,binary,count,638,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,Hyperlipidaemia_broad,binary,percentage,17.2852885396911,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,count,634,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,17.1769168247088,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,None,binary,count,2410,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,None,binary,percentage,65.2939582768897,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,Unknown,binary,count,643,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication on index date,Unknown,binary,percentage,17.4207531834191,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,1393,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,37.7404497426172,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,1400,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,37.9301002438364,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,None,binary,count,744,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,None,binary,percentage,20.1571389867245,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,Unknown,binary,count,1547,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 30 days,Unknown,binary,percentage,41.9127607694392,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,2310,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,62.58466540233,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,2320,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,62.855594689786,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,None,binary,count,172,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,None,binary,percentage,4.65998374424275,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,Unknown,binary,count,1199,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication during prior 180 days,Unknown,binary,percentage,32.4844215659713,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,count,3179,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,86.1284204822541,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,count,3169,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,85.8574911947982,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,None,binary,count,56,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,None,binary,percentage,1.51720400975345,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,Unknown,binary,count,456,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Female,Indication any time prior,Unknown,binary,percentage,12.3543755079924,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,number subjects,NA,numeric,count,2645,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,number records,NA,NA,count,2645,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,Hyperlipidaemia_broad,binary,count,406,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,Hyperlipidaemia_broad,binary,percentage,15.3497164461248,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,count,403,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,Hyperlipidaemia_narrow,binary,percentage,15.2362948960302,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,None,binary,count,1763,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,None,binary,percentage,66.6540642722117,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,Unknown,binary,count,476,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication on index date,Unknown,binary,percentage,17.9962192816635,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,count,885,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,Hyperlipidaemia_narrow,binary,percentage,33.4593572778828,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,count,890,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,Hyperlipidaemia_broad,binary,percentage,33.648393194707,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,None,binary,count,583,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,None,binary,percentage,22.0415879017013,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,Unknown,binary,count,1172,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 30 days,Unknown,binary,percentage,44.3100189035917,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,count,1659,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,Hyperlipidaemia_narrow,binary,percentage,62.7221172022684,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,count,1664,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,Hyperlipidaemia_broad,binary,percentage,62.9111531190926,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,None,binary,count,126,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,None,binary,percentage,4.76370510396975,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,Unknown,binary,count,855,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication during prior 180 days,Unknown,binary,percentage,32.3251417769376,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,count,2284,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,Hyperlipidaemia_broad,binary,percentage,86.351606805293,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,count,2282,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,Hyperlipidaemia_narrow,binary,percentage,86.2759924385633,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,None,binary,count,43,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,None,binary,percentage,1.62570888468809,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,Unknown,binary,count,318,PHARMETRICS,Summary indication
+cohort_name,simvastatin,age_group and sex,80 to 150 and Male,Indication any time prior,Unknown,binary,percentage,12.0226843100189,PHARMETRICS,Summary indication
