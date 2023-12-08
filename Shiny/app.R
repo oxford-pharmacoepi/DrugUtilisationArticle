@@ -109,7 +109,7 @@ ui <- dashboardPage(
           tabName = "discontinuation"
         ),
         menuSubItem(
-          text = "Treatment patterns",
+          text = "Alternative treatments",
           tabName = "patterns"
         )
       ),
@@ -852,7 +852,7 @@ server <- function(input, output, session) {
       right_join(x %>% filter(name != ref), by = "concept") %>%
       mutate(percentage = 100*coalesce(percentage, 0)) %>%
       mutate(reference = 100*coalesce(reference, 0))
-    ggplot(data = x, aes(x = reference, y = percentage, col = name)) +
+    ggplot(data = x, aes(x = reference, y = percentage, col = name, group = concept)) +
       geom_point()
     
   })

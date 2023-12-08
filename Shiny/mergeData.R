@@ -77,7 +77,8 @@ patterns <- read_csv(file = here("data", "treatmentSummary.csv"), show_col_types
   mutate(age_group = coalesce(age_group, "0 to 150")) %>%
   mutate(sex = coalesce(sex, "Both")) %>%
   filter(!variable %in% c("number subjects", "number records")) %>%
-  select(cdm_name, cohort_name, age_group, sex, variable, variable_level, estimate_type, estimate)
+  select(cdm_name, cohort_name, age_group, sex, variable, variable_level, estimate_type, estimate) %>%
+  mutate(variable_level = factor(x = variable_level, levels = c("0 to 0", "1 to 30", "31 to 90", "91 to 180", "181 to 365")))
 
 save(
   cdmSnapshot, counts, attrition, settings, characteristics, dose, indication,
