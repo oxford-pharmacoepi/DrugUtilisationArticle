@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.1",
+    "Version": "4.2.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -103,11 +103,26 @@
       ],
       "Hash": "f3de4a4878163a4629a528bbcc6e655d"
     },
+    "DiagrammeRsvg": {
+      "Package": "DiagrammeRsvg",
+      "Version": "0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "V8"
+      ],
+      "Hash": "21e1cb313a641634215226782a49e5a1"
+    },
     "IncidencePrevalence": {
       "Package": "IncidencePrevalence",
       "Version": "0.5.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "darwin-eu-dev",
+      "RemoteRepo": "IncidencePrevalence",
+      "RemoteRef": "legend",
+      "RemoteSha": "4338a6ae9733a2b623816b5890d5b668fbb1955c",
       "Requirements": [
         "CDMConnector",
         "DBI",
@@ -128,7 +143,7 @@
         "tidyselect",
         "zip"
       ],
-      "Hash": "5a4d39156e454000450e90d5baf99856"
+      "Hash": "f96027b45e911ee1c365e491af1b636e"
     },
     "MASS": {
       "Package": "MASS",
