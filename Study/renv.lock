@@ -115,7 +115,7 @@
       "RemoteUsername": "darwin-eu-dev",
       "RemoteRepo": "DrugUtilisation",
       "RemoteRef": "cohort_survival",
-      "RemoteSha": "a6a977d4d718adfdce4947b02112f3d2c6ae86d2",
+      "RemoteSha": "d0b4b5f24554f1724d2cefdb7acc4fc7aaa9b3f6",
       "Remotes": "darwin-eu/CohortSurvival",
       "Requirements": [
         "CDMConnector",
@@ -135,7 +135,7 @@
         "rlang",
         "tidyr"
       ],
-      "Hash": "c76e40add8571820f363dcb2fd5e8021"
+      "Hash": "9a4a8783df8c01cf8c607dfa3bbe238e"
     },
     "IncidencePrevalence": {
       "Package": "IncidencePrevalence",
