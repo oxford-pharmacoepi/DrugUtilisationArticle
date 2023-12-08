@@ -81,6 +81,6 @@ patterns <- read_csv(file = here("data", "treatmentSummary.csv"), show_col_types
 
 save(
   cdmSnapshot, counts, attrition, settings, characteristics, dose, indication,
-  discontinuation, patterns, incidence, prevalence,
+  discontinuation, patterns, incidence, prevalence, lsc,
   file = here("mergedData.Rdata")
 )
