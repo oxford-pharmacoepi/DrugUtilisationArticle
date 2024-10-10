@@ -1,9 +1,3 @@
-cohort_definition_id,cohort_name,duration_range_min,duration_range_max,impute_duration,gap_era,prior_use_washout,prior_observation,cohort_date_range_start,cohort_date_range_end,limit,number_records,number_subjects,reason_id,reason,excluded_records,excluded_subjects,cdm_name
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,5891125,693120,1,Qualifying initial records,0,0,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,5891125,693120,2,Duration imputation; affected rows: 0 (0%),0,0,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,1148625,693120,3,Join eras,4742500,0,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,716928,693120,4,prior use washout of 365 days,431697,0,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,65191,63327,5,at least 365 prior observation,651737,629793,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,65191,63327,6,cohort_start_date >= 2010-01-01,0,0,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,61550,60032,7,cohort_end_date <= 2021-12-31,3641,3295,PHARMETRICS
-1,new_simvastatin,1,Inf,none,30,365,365,2010-01-01,2021-12-31,first,60032,60032,8,Limit to first era,1518,0,PHARMETRICS
+cohort_definition_id,cohort_name,gap_era,number_records,number_subjects,reason_id,reason,excluded_records,excluded_subjects,cdm_name
+1,new_simvastatin,30,207109,8143,1,Initial qualifying events,0,0,CPRD_GOLD
+1,new_simvastatin,30,28094,8143,2,join exposures separated by 30 or less days,179015,0,CPRD_GOLD
