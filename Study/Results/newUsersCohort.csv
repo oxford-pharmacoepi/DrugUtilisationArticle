@@ -1,3 +1,0 @@
-cohort_definition_id,cohort_name,gap_era,number_records,number_subjects,reason_id,reason,excluded_records,excluded_subjects,cdm_name
-1,new_simvastatin,30,207109,8143,1,Initial qualifying events,0,0,CPRD_GOLD
-1,new_simvastatin,30,28094,8143,2,join exposures separated by 30 or less days,179015,0,CPRD_GOLD
