@@ -12,9 +12,9 @@ library(log4r)
 library(readr)
 library(zip)
 library(IncidencePrevalence)
-
+library(CohortCharacteristics)
 # Connection details
-server_dbi<-"cdm_iqvia_pharmetrics_plus_202203"
+server_dbi<-"..."
 port<-Sys.getenv("DB_PORT")
 host<-Sys.getenv("DB_HOST")
 user<-Sys.getenv("DB_USER")
@@ -28,10 +28,10 @@ db <- dbConnect(RPostgres::Postgres(),
                 password = password)
 
 # connection details
-databaseAcronym <- "PHARMETRICS"
-cdmDatabaseSchema <- "public"
+databaseAcronym <- "CPRD_GOLD"
+cdmDatabaseSchema <- "public_100k"
 resultsDatabaseSchema <- "results"
-resultsStem <- "dus_"
+resultsStem <- "dus_yg_"
 
 cdm <- cdmFromCon(
   con = db,

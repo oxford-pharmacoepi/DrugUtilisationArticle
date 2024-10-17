@@ -1,7 +1,0 @@
-cohort_definition_id,cohort_name,duration_range_min,duration_range_max,impute_duration,gap_era,prior_use_washout,prior_observation,cohort_date_range_start,cohort_date_range_end,limit,number_records,number_subjects,reason_id,reason,excluded_records,excluded_subjects,cdm_name
-1,prevalent_simvastatin,1,Inf,none,30,0,NA,NA,NA,all,5891125,693120,1,Qualifying initial records,0,0,PHARMETRICS
-1,prevalent_simvastatin,1,Inf,none,30,0,NA,NA,NA,all,5891125,693120,2,Duration imputation; affected rows: 0 (0%),0,0,PHARMETRICS
-1,prevalent_simvastatin,1,Inf,none,30,0,NA,NA,NA,all,1148625,693120,3,Join eras,4742500,0,PHARMETRICS
-1,prevalent_simvastatin,1,Inf,none,30,0,NA,NA,NA,all,1148625,693120,4,prior use washout of 0 days,0,0,PHARMETRICS
-1,prevalent_simvastatin,1,Inf,none,30,0,NA,NA,NA,all,1148625,693120,5,cohort_start_date >= NA,0,0,PHARMETRICS
-1,prevalent_simvastatin,1,Inf,none,30,0,NA,NA,NA,all,1148625,693120,6,cohort_end_date <= NA,0,0,PHARMETRICS
