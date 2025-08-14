@@ -1,4 +1,6 @@
 # shiny is prepared to work with this resultList, please do not change them
+library(omopgenerics)
+library(stringr)
 resultList <- list(
   "summarise_omop_snapshot" = c(1L),
   "summarise_cohort_count" = c(2L, 4L, 95L),

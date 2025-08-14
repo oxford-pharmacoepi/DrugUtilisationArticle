@@ -1,0 +1,142 @@
+---
+title: "DUS paper plots"
+format:
+  revealjs: 
+    theme: [simple, custom_1.scss]
+    incremental: true   
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    margin: 0.07
+    code-link: true
+    code-line-numbers: false
+    height: 900
+    width: 1600
+execute:
+  echo: true
+  eval: true
+editor: visual
+---
+```{r, include=FALSE}
+library(omopgenerics)
+library(DrugUtilisation)
+library(ggh4x)
+library(ggplot2)
+library(flextable)
+library(officer)
+library(stringr)
+fileData <- file.path(getwd(), "data", "shinyData.RData")
+if (!file.exists(fileData)) {
+  source(file.path(getwd(), "data", "preprocess.R"))
+}
+load(fileData)
+
+data$summarise_drug_utilisation <- data$summarise_drug_utilisation |>
+  filter(is.na("variable_level") | !str_detect("variable_level", fixed("density")))
+
+```
+
+
+
+```{r}
+bd <- fp_border(color = "black", width = .4)
+df_restart <- data$summarise_drug_restart
+tableDrugRestart(df_restart|>filterStrata(age_group == "overall", sex %in% c("Female", "Male")) |> filter(estimate_type == "percentage"),
+                 header = c("cdm_name", 
+                            "sex"),
+                 hide = c("cohort_name", "cohort_table_name", "censor_date", "incident",
+                          "restrict_to_first_discontinuation","switch_cohort_table",
+                          "age_group", "follow_up_days", "estimate_name"),
+                 type = "flextable")|>
+  theme_booktabs() |> # keep grey header only
+  fontsize(part = "all", size = 8) |>
+  padding(part = "all", padding = 2) |>
+  autofit() |>
+  border_remove() |>
+  border_outer(border = bd) |>
+  border_inner_h(border = bd) |>
+  border_inner_v(border = bd) |>
+  set_table_properties(width = .9) |>
+  save_as_docx(path = paste0(getwd(), "/drug_restart_table.docx"))
+```
+
+
+```{r}
+df_dus <- data$summarise_drug_utilisation
+library(flextable)
+library(officer)
+
+
+tableDrugUtilisation(
+  df_dus |>
+    filter(estimate_name %in% c("count", "median", "q75", "q25")) |>
+    filter(variable_name %in% c("number subjects",
+                                 "number exposures",
+                                 "days exposed",
+                                 "cumulative dose milligram"))|>
+    filterStrata(sex == "overall"),
+  groupColumn = "age_group",
+  hide = c(
+    "censor_date", "cohort_table_name", "gap_era", "index_date",
+    "restrict_incident", "ingredient", "variable_level", "concept_set",
+    "sex", "cohort_name"
+  ),
+  type = "flextable"
+) |>
+  theme_booktabs() |> # keep grey header only
+  fontsize(part = "all", size = 8) |>
+  padding(part = "all", padding = 2) |>
+  autofit() |>
+  border_remove() |>
+  border_outer(border = bd) |>
+  border_inner_h(border = bd) |>
+  border_inner_v(border = bd) |>
+  set_table_properties(width = .9) |>
+  save_as_docx(path = paste0(getwd(), "/drug_utilisation_table.docx"))
+
+```
+
+
+```{r}
+df_de <- df_dus |> filter(variable_name == "days exposed")|>
+filterStrata(sex %in% c("Female", "Male"), age_group != "overall")
+
+plotDrugUtilisation(
+  df_de,
+  plotType = "boxplot",
+  variable = "days exposed",
+  facet    = cdm_name ~ sex,
+  colour   = "age_group"
+) +
+  facet_grid(cdm_name ~ sex, scales = "free_y") +
+  facetted_pos_scales(
+    y = list(
+      cdm_name == "MAITT" ~ scale_y_continuous(limits = c(0, 500)),
+      TRUE                ~ scale_y_continuous(limits = c(0, 1000))
+    )
+  ) +
+  labs(x = "Age group") +
+  theme(text = element_text(size = 16))
+
+
+
+```
+
+```{r}
+df_ind <- data$summarise_indication |>
+  filterStrata(sex == "overall") |>
+  filter(variable_name == "Indication from 30 days before to the index date")
+
+plotIndication(df_ind, facet = cdm_name~age_group)+
+  theme(text = element_text(size = 16))
+```
+
+```{r}
+ppc<-data$summarise_proportion_of_patients_covered |>
+  filterStrata(age_group != "overall", sex %in% c("Female", "Male"))
+plotProportionOfPatientsCovered(ppc, facet = cdm_name~ sex, colour = "age_group")+
+  theme(text=element_text(size=16)) +
+scale_colour_discrete(
+    name   = "Age group",
+    labels = function(x) gsub("_", " ", x)
+  )
