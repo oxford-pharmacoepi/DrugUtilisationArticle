@@ -3,6 +3,7 @@ col0 <- "black"
 colA <- "#1f77b4"
 colB <- "#ff7f0e"
 colC <- "#2ca02c"
+font_family <- "sans"
 
 exposures <- dplyr::tibble(
   person_id = c(1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5),
@@ -41,7 +42,7 @@ windows <- dplyr::tibble(
 )
 
 # legend
-y <- 7.3
+y <- 7.1
 x0 <- -68
 w <- 7
 s <- 2
@@ -71,7 +72,8 @@ dplyr::tibble(
   "estimate_value" = c("50", "0", "25", "25", "80", "20", "0", "40", "60", "20", "0", "20", "60", "40", "20", "0", "50", "25", "50", "25")
 ) |>
   dplyr::mutate(estimate_value = paste0(estimate_value, "%")) |>
-  visOmopResults::visTable(header = "window", hide = c("estimate_type", "estimate_name"))
+  visOmopResults::visTable(header = "window", hide = c("estimate_type", "estimate_name")) ->
+  table_b
 dplyr::tibble(
   "Treatment" = rep(c("A", "B", "C", "A and B", "A and C", "B and C", "A, B and C", "untreated"), 5),
   "window" = c(rep("[-60, -31]", 8), rep("[-30, -1]", 8), rep("[0, 0]", 8), rep("[1, 30]", 8), rep("[31, 60]", 8)),
@@ -80,14 +82,15 @@ dplyr::tibble(
   "estimate_value" = c("50", "0", "25", "0", "0", "0", "0", "25", "20", "0", "0", "20", "20", "0", "0", "40", "60", "20", "0", "0", "0", "0", "0", "20", "60", "0", "0", "20", "0", "20", "0", "0", "25", "0", "25", "0", "0", "0", "25", "25")
 ) |>
   dplyr::mutate(estimate_value = paste0(estimate_value, "%")) |>
-  visOmopResults::visTable(header = "window", hide = c("estimate_type", "estimate_name"))
+  visOmopResults::visTable(header = "window", hide = c("estimate_type", "estimate_name")) ->
+  table_c
 
 p <- ggplot2::ggplot() +
   # exposures
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = y, group = group, color = type),
     data = exposures,
-    size = 3,
+    linewidth = 3,
     alpha = 0.8,
     inherit.aes = FALSE
   ) +
@@ -95,7 +98,7 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_errorbar(
     mapping = ggplot2::aes(xmin = start, xmax = end, y = y, group = id),
     data = windows,
-    size = 0.5,
+    linewidth = 0.5,
     width = 0.1,
     inherit.aes = FALSE
   ) +
@@ -103,7 +106,7 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = person_id, group = person_id, colour = type),
     data = notObs,
-    size = 5,
+    linewidth = 5,
     alpha = 0.5,
     inherit.aes = FALSE
   ) +
@@ -121,7 +124,7 @@ p <- ggplot2::ggplot() +
     color = "white",
     nudge_y = 0.08,
     size = 3.2,
-    family = "Graphik"
+    family = font_family
   ) +
   # window labels
   ggplot2::geom_text(
@@ -131,7 +134,8 @@ p <- ggplot2::ggplot() +
       y = c(0, 0, 0.6, 0, 0) + 5.95,
       lab = c("window 1 [-60, -31]", "window 2 [-30, -1]", "window 3 [0, 0]", "window 4 [1, 30]", "window 5 [31, 60]")
     ),
-    size = 3.5,
+    size = 3,
+    family = font_family,
     inherit.aes = FALSE
   ) +
   ggplot2::geom_segment(
@@ -169,14 +173,14 @@ p <- ggplot2::ggplot() +
     mapping = ggplot2::aes(x = x, y = y, colour = type),
     data = legendLines |>
       dplyr::filter(id == 1),
-    size = 5,
+    linewidth = 5,
     alpha = 0.5
   ) +
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = y, colour = type),
     data = legendLines |>
       dplyr::filter(id != 1),
-    size = 3,
+    linewidth = 3,
     alpha = 0.8
   ) +
   # tables
@@ -201,21 +205,31 @@ p <- ggplot2::ggplot() +
     mapping = ggplot2::aes(x = x, y = y),
     data = dplyr::tibble(x = c(-75, 75), y = 0.15),
     colour = "black",
-    size = 0.4
+    linewidth = 0.4
   ) +
   ggplot2::geom_text(
     mapping = ggplot2::aes(x = 0, y = -0.5, label = "Time (days)"),
     data = NULL,
     size = 5,
-    family = "Graphik"
+    family = font_family
   ) +
   ggplot2::geom_text(
-    mapping = ggplot2::aes(x = c(-75, 85, 85), y = c(7.5, 7.2, 4), label = c("A", "B", "C")),
+    mapping = ggplot2::aes(
+      x = c(-74, 85, 85),
+      y = c(7.75, 7.5, 4.35),
+      label = c(
+        "Illustrative example of prescription sequence",
+        "Non-mutually exclusive categories",
+        "Mutually exclusive categories"
+      )
+    ),
     data = NULL,
-    size = 6.5,
-    family = "Graphik"
+    size = 4,
+    family = font_family,
+    fontface = "italic",
+    hjust = 0
   ) +
-  ggplot2::coord_cartesian(xlim = c(-70, 150), ylim = c(0.5, 7.8), clip = "off") +
+  ggplot2::coord_cartesian(xlim = c(-70, 150), ylim = c(0.5, 7.9), clip = "off") +
   ggplot2::scale_y_continuous(breaks = NULL, name = "") +
   ggplot2::scale_x_continuous(name = "", breaks = seq(-60, 60, by = 30)) +
   ggplot2::theme(
@@ -224,10 +238,12 @@ p <- ggplot2::ggplot() +
     legend.text = ggplot2::element_text(size = 12),
     plot.background = ggplot2::element_rect(fill = "white", color = NA),
     panel.background = ggplot2::element_rect(fill = "white", color = NA),
-    text = ggplot2::element_text(size = 14, family = "Graphik")
+    text = ggplot2::element_text(size = 14, family = font_family)
   )
 
-p
+if (interactive()) {
+  print(p)
+}
 
 ggplot2::ggsave(
   filename = "./Figures/Diagram6.png",
