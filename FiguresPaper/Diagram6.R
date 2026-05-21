@@ -37,14 +37,14 @@ eps <- 0
 windows <- dplyr::tibble(
   start = c(-60, -30, 0, 1, 31) - eps,
   end = c(-31, -1, 0, 30, 60) + eps,
-  y = 5.7,
+  y = 6.05,
   id = 1:5
 )
 
 # legend
-y <- 7.1
+y <- 7.65
 x0 <- -68
-w <- 7
+w <- 6
 s <- 2
 s1 <- 34
 s2 <- 25
@@ -90,7 +90,7 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = y, group = group, color = type),
     data = exposures,
-    linewidth = 3,
+    linewidth = 2.6,
     alpha = 0.8,
     inherit.aes = FALSE
   ) +
@@ -98,7 +98,7 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_errorbar(
     mapping = ggplot2::aes(xmin = start, xmax = end, y = y, group = id),
     data = windows,
-    linewidth = 0.5,
+    linewidth = 0.45,
     width = 0.1,
     inherit.aes = FALSE
   ) +
@@ -106,7 +106,7 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = person_id, group = person_id, colour = type),
     data = notObs,
-    linewidth = 5,
+    linewidth = 4.3,
     alpha = 0.5,
     inherit.aes = FALSE
   ) +
@@ -115,7 +115,7 @@ p <- ggplot2::ggplot() +
     mapping = ggplot2::aes(x = -70, y = 1:5, image = "./person.png"),
     data = dplyr::tibble(),
     inherit.aes = FALSE,
-    size = 0.12
+    size = 0.105
   ) +
   ggplot2::geom_text(
     mapping = ggplot2::aes(x = -70, y = 1:5, label = 1:5),
@@ -123,7 +123,7 @@ p <- ggplot2::ggplot() +
     inherit.aes = FALSE,
     color = "white",
     nudge_y = 0.08,
-    size = 3.2,
+    size = 3,
     family = font_family
   ) +
   # window labels
@@ -131,7 +131,7 @@ p <- ggplot2::ggplot() +
     mapping = ggplot2::aes(x = x, y = y, label = lab),
     data = dplyr::tibble(
       x = c(-45, -15, 0, 15, 45),
-      y = c(0, 0, 0.6, 0, 0) + 5.95,
+      y = c(0, 0, 0.6, 0, 0) + 6.35,
       lab = c("window 1 [-60, -31]", "window 2 [-30, -1]", "window 3 [0, 0]", "window 4 [1, 30]", "window 5 [31, 60]")
     ),
     size = 3,
@@ -139,7 +139,7 @@ p <- ggplot2::ggplot() +
     inherit.aes = FALSE
   ) +
   ggplot2::geom_segment(
-    mapping = ggplot2::aes(x = 0, y = 6.4, xend = 0, yend = 5.8),
+    mapping = ggplot2::aes(x = 0, y = 6.82, xend = 0, yend = 6.15),
     arrow = grid::arrow(length = grid::unit(0.16, "cm"), type = "closed"),
     color = "black",
     linewidth = 0.25
@@ -150,7 +150,7 @@ p <- ggplot2::ggplot() +
     data = dplyr::tibble(
       x = c(-60.5, -30.5, -0.5, 0.5, 30.5, 60.5),
       y1 = 0.5,
-      y2 = 5.8,
+      y2 = 6.1,
     ) |>
       dplyr::mutate(group = dplyr::row_number()) |>
       tidyr::pivot_longer(c("y1", "y2"), names_to = NULL, values_to = "y"),
@@ -167,36 +167,38 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_text(
     mapping = ggplot2::aes(x = x, y = y, label = lab),
     data = legendlabs,
+    size = 3.4,
+    family = font_family,
     hjust = 0
   ) +
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = y, colour = type),
     data = legendLines |>
       dplyr::filter(id == 1),
-    linewidth = 5,
+    linewidth = 4,
     alpha = 0.5
   ) +
   ggplot2::geom_line(
     mapping = ggplot2::aes(x = x, y = y, colour = type),
     data = legendLines |>
       dplyr::filter(id != 1),
-    linewidth = 3,
+    linewidth = 2.6,
     alpha = 0.8
   ) +
   # tables
   ggimage::geom_image(
-    mapping = ggplot2::aes(x = 120, y = 6, image = "./table1.png"),
+    mapping = ggplot2::aes(x = 120, y = 6.7, image = "./table1.png"),
     data = dplyr::tibble(),
     inherit.aes = FALSE,
-    size = 0.65,
+    size = 0.56,
     nudge_x = 0,
     nudge_y = 0
   ) +
   ggimage::geom_image(
-    mapping = ggplot2::aes(x = 120, y = 2, image = "./table2.png"),
+    mapping = ggplot2::aes(x = 120, y = 2.35, image = "./table2.png"),
     data = dplyr::tibble(),
     inherit.aes = FALSE,
-    size = 0.65,
+    size = 0.56,
     nudge_x = 0,
     nudge_y = 0
   ) +
@@ -208,15 +210,9 @@ p <- ggplot2::ggplot() +
     linewidth = 0.4
   ) +
   ggplot2::geom_text(
-    mapping = ggplot2::aes(x = 0, y = -0.5, label = "Time (days)"),
-    data = NULL,
-    size = 5,
-    family = font_family
-  ) +
-  ggplot2::geom_text(
     mapping = ggplot2::aes(
       x = c(-74, 85, 85),
-      y = c(7.75, 7.5, 4.35),
+      y = c(8.75, 8.2, 4.8),
       label = c(
         "Illustrative example of prescription sequence",
         "Non-mutually exclusive categories",
@@ -229,12 +225,14 @@ p <- ggplot2::ggplot() +
     fontface = "italic",
     hjust = 0
   ) +
-  ggplot2::coord_cartesian(xlim = c(-70, 150), ylim = c(0.5, 7.9), clip = "off") +
+  ggplot2::coord_cartesian(xlim = c(-70, 150), ylim = c(0.5, 9.05), clip = "off") +
   ggplot2::scale_y_continuous(breaks = NULL, name = "") +
-  ggplot2::scale_x_continuous(name = "", breaks = seq(-60, 60, by = 30)) +
+  ggplot2::scale_x_continuous(name = "Time (days)", breaks = seq(-60, 60, by = 30)) +
   ggplot2::theme(
     legend.position = "none",
     axis.line.x = ggplot2::element_line(linewidth = 0),
+    axis.title.x = ggplot2::element_text(size = 14, margin = ggplot2::margin(t = 6)),
+    axis.text.x = ggplot2::element_text(size = 12),
     legend.text = ggplot2::element_text(size = 12),
     plot.background = ggplot2::element_rect(fill = "white", color = NA),
     panel.background = ggplot2::element_rect(fill = "white", color = NA),
@@ -249,7 +247,7 @@ ggplot2::ggsave(
   filename = "./Figures/Diagram6.png",
   plot = p,
   width = 974*3,
-  height = 426*3,
+  height = 480*3,
   units = "px",
   dpi = 300
 )
