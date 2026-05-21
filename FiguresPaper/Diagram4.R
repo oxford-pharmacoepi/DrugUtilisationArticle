@@ -146,7 +146,7 @@ title_x <- -10
 right_panel_x <- 462
 table_size <- 0.38
 table_d_y <- 8.65
-table_e_y <- 2.55
+table_e_y <- 2.2
 
 layer_titles <- dplyr::tibble(
   x = title_x,
