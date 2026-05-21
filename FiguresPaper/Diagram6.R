@@ -42,7 +42,7 @@ windows <- dplyr::tibble(
 )
 
 # legend
-y <- 7.65
+y <- 7.45
 x0 <- -68
 w <- 6
 s <- 2
@@ -187,7 +187,7 @@ p <- ggplot2::ggplot() +
   ) +
   # tables
   ggimage::geom_image(
-    mapping = ggplot2::aes(x = 120, y = 6.7, image = "./table1.png"),
+    mapping = ggplot2::aes(x = 120, y = 6.85, image = "./table1.png"),
     data = dplyr::tibble(),
     inherit.aes = FALSE,
     size = 0.56,
@@ -195,7 +195,7 @@ p <- ggplot2::ggplot() +
     nudge_y = 0
   ) +
   ggimage::geom_image(
-    mapping = ggplot2::aes(x = 120, y = 2.35, image = "./table2.png"),
+    mapping = ggplot2::aes(x = 120, y = 2.45, image = "./table2.png"),
     data = dplyr::tibble(),
     inherit.aes = FALSE,
     size = 0.56,
@@ -212,7 +212,7 @@ p <- ggplot2::ggplot() +
   ggplot2::geom_text(
     mapping = ggplot2::aes(
       x = c(-74, 85, 85),
-      y = c(8.75, 8.2, 4.8),
+      y = c(8.35, 8.35, 4.80),
       label = c(
         "Illustrative example of prescription sequence",
         "Non-mutually exclusive categories",
@@ -247,7 +247,7 @@ ggplot2::ggsave(
   filename = "./Figures/Diagram6.png",
   plot = p,
   width = 974*3,
-  height = 480*3,
+  height = 460*3,
   units = "px",
   dpi = 300
 )
